@@ -97,7 +97,6 @@ impl wita::EventHandler for Application {
 }
 
 fn main() {
-    windows::initialize_sta().unwrap();
     wita::initialize::<Application>();
     wita::run(wita::RunType::Idle, Application::new().unwrap());
 }
