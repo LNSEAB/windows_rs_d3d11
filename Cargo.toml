@@ -1,0 +1,12 @@
+[package]
+name = "windows_rs_d3d11"
+version = "0.1.0"
+authors = ["LNSEAB <691752+LNSEAB@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]
+bindings = { path = "bindings" }
+wita = "0.5.1"
+anyhow = "1.0.38"
+windows = "0.3.1"
+

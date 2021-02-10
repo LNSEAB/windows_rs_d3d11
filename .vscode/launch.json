@@ -1,0 +1,23 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "run debug",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "${workspaceFolder}/target/debug/${workspaceFolderBasename}.exe",
+			"args": [],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}",
+			"environment": [
+				{
+					"name": "RUST_LOG",
+					"value": "debug"
+				}
+			],
+			"console": "internalConsole",
+			"preLaunchTask": "build debug",
+			"internalConsoleOptions": "openOnSessionStart",
+		}
+	]
+}
