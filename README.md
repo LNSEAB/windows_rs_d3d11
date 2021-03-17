@@ -1,1 +1,1 @@
-windows-rsでD3D11の画面クリアをするだけ
+windows-rsでD3D11の三角を表示するだけ
